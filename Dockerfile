@@ -1,12 +1,21 @@
-# Tags: latest, 2.3.1-debian-10-r20, 2.3.1, 2-debian-10, 2
+# Tags: latest, 2.3.1-debian-10-r23, 2.3.1, 2-debian-10, 2
 FROM bitnami/kong-ingress-controller:latest
-FROM bitnami/kong-ingress-controller:2.3.1-debian-10-r20
+FROM bitnami/kong-ingress-controller:2.3.1-debian-10-r23
 FROM bitnami/kong-ingress-controller:2.3.1
 FROM bitnami/kong-ingress-controller:2-debian-10
 FROM bitnami/kong-ingress-controller:2
 
 # Tags: _
 FROM bitnami/kong-ingress-controller:_
+
+# Tags: 2.3.1-debian-10-r22
+FROM bitnami/kong-ingress-controller:2.3.1-debian-10-r22
+
+# Tags: 2.3.1-debian-10-r21
+FROM bitnami/kong-ingress-controller:2.3.1-debian-10-r21
+
+# Tags: 2.3.1-debian-10-r20
+FROM bitnami/kong-ingress-controller:2.3.1-debian-10-r20
 
 # Tags: 2.3.1-debian-10-r19
 FROM bitnami/kong-ingress-controller:2.3.1-debian-10-r19
@@ -84,15 +93,3 @@ FROM bitnami/kong-ingress-controller:2.2.1
 
 # Tags: 2.2.1-debian-10-r46
 FROM bitnami/kong-ingress-controller:2.2.1-debian-10-r46
-
-# Tags: 2.2.1-debian-10-r45
-FROM bitnami/kong-ingress-controller:2.2.1-debian-10-r45
-
-# Tags: 2.2.1-debian-10-r44
-FROM bitnami/kong-ingress-controller:2.2.1-debian-10-r44
-
-# Tags: 2.2.1-debian-10-r42
-FROM bitnami/kong-ingress-controller:2.2.1-debian-10-r42
-
-# Tags: 2.2.1-debian-10-r41
-FROM bitnami/kong-ingress-controller:2.2.1-debian-10-r41
